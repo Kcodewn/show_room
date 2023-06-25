@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 
-import { CustomButton } from "@components";
+import { CustomButton } from "@/components";
+
 
 const Hero = () => {
   const handleScroll = () => {
@@ -17,7 +18,7 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, and rent a at your conveniences!
+          Find, book, and rent at your conveniences!
         </h1>
 
         <p className="hero__subtitle">
